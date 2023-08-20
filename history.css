@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Inter:wght@700&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Inter:wght@700&family=Raleway:wght@600&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.history
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5vh;
+    height: 100vh;
+    margin-top: 15vh;
+    padding-top: 0%;
+    padding-left: 25vh;
+    padding-right: 25vh;
+    padding-bottom: 20vh;
+}
+
+.history .matter
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.history .matter .heading
+{
+    font-weight: bolder;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;    
+}
+
+.history .matter .subheading
+{
+    padding-top: 20vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight:bolder;
+    display: flex;
+    flex-direction: column;
+    font-size: 250%;
+}
+
+.history .matter .subheading .two
+{
+    margin-left: 18vh;
+}
+
+.history .matter .para
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 18vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.history .matter .discover
+{
+    width:15vw;
+    margin-left: 18vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.history .image
+{
+    min-width: 25vw;
+    overflow: hidden;
+}

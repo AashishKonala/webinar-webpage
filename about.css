@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Inter:wght@700&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Inter:wght@700&family=Raleway:wght@600&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.about
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5vh;
+    height: 100vh;
+    margin-top: 10vh;
+    padding-top: 0%;
+    padding-left: 25vh;
+    padding-right: 25vh;
+    padding-bottom: 20vh;
+}
+
+.about .image
+{
+    min-width: 25vw;
+    overflow: hidden;
+    margin-top: 30vh;
+}
+
+.about .matter
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.about .matter .heading
+{
+    font-weight: bolder;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: auto;
+}
+
+.about .matter .subheading
+{
+    padding-top: 20vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight:bolder;
+    display: flex;
+    flex-direction: column;
+    font-size: 250%;
+}
+
+.about .matter .subheading .two
+{
+    margin-left: 18vh;
+}
+
+.about .matter .para
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.about .matter .discover
+{
+    width:15vw;
+    margin-left: 20vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}

@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Inter:wght@700&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Inter:wght@700&family=Raleway:wght@600&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header
+{
+    min-height: 100vh;
+    padding-top: 0%;
+    padding-left: 25vh;
+    padding-right: 25vh;
+    padding-bottom: 20vh;
+    background-color: black;
+    color: antiquewhite;
+}
+
+header .h-center
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header .h-center .h-top
+{
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .h-center .h-top .h-heading
+{
+    font-size: 200%;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight:bolder;
+}
+
+header .h-center .h-top .h-heading .two
+{
+    margin-left: 5vh;
+}
+
+header .h-center .h-top .h-matter
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+    margin-top: 5vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header .h-center .h-bottom
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5vh;
+}
+
+header .h-center .h-bottom .h-left
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vh;
+    background-color: grey;
+    padding: 5vh;
+    border-radius: 5%;
+}
+
+header .h-center .h-bottom .h-left .one
+{
+    display: flex;
+    column-gap: 5vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header .h-center .h-bottom .h-left .one .one
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 5vh;
+    width: 35vh;
+    border-radius: 5%;
+}
+
+header .h-center .h-bottom .h-left .one .two
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 5vh;
+    width: 35vh;
+    border-radius: 5%; 
+}
+
+header .h-center .h-bottom .h-left .two
+{
+    display: flex;
+    column-gap: 5vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header .h-center .h-bottom .h-left .two .one
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 5vh;
+    width: 35vh;
+    border-radius: 5%;
+}
+
+header .h-center .h-bottom .h-left .two .two
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 5vh;
+    width: 35vh;
+    border-radius: 5%;    
+}
+
+header .h-center .h-bottom .h-left .three
+{
+    display: flex;
+    column-gap: 5vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header .h-center .h-bottom .h-left .three .image
+{
+    padding: 5vh;
+    width: 35vh;
+}
+
+header .h-center .h-bottom .h-left .three .description
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    width: 35vh;
+    border-radius: 5%;    
+    padding-top: 15vh;
+}
+
+header .h-center .h-bottom .h-left .three .description h4
+{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-size:  175%;
+}
+
+header .h-center .h-bottom .h-left .four
+{
+    display: flex;
+    column-gap: 5vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header .h-center .h-bottom .h-left .four .one
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 5vh;
+    width: 35vh;
+    border-radius: 5%;
+}
+
+header .h-center .h-bottom .h-left .four .two
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 5vh;
+    width: 35vh;
+    border-radius: 5%;
+}
+
+header .h-center .h-bottom .h-right
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header .h-center .h-bottom .h-right .one
+{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-size:300%;
+}
+
+header .h-center .h-bottom .h-right button
+{
+    margin-top: 10vh;
+    padding: 5vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-size:175%;
+}
+
+header .h-center .h-bottom .h-right button:hover
+{
+    cursor: pointer;  
+}
